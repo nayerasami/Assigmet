@@ -1,0 +1,210 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    height: 150px;
+    background-color: #1e202b;
+}
+
+
+.nav-link{
+    color: white;
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    font-size: 14px;
+    transition: 0.5s ease;
+    font-weight: 400;
+
+}
+.nav-link:hover{
+    border: 1px solid #009ad8;
+  
+    color: #009ad8;
+    
+}
+a .active{
+    color: #009ad8;
+    border: #009ad8;
+    padding: 5px 25px;
+
+}
+#footer{
+    background-color:#323544;
+}
+#subscribe{
+   font-size: 14px;
+   color: white;
+    width: 100%;
+}
+.sub1{
+    position: relative;
+}
+.sub{
+
+    background-color: #009ad8;
+    color: white;
+    border-radius:30px;
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 16px;
+    margin-top: 3px;
+    height: 54px;
+    
+}
+.logo{
+    cursor: pointer;
+}
+.sec1{
+    background-image: url(..//image/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+.sec2{
+    background-color: #1e202b;
+    height: 30vh;
+
+}
+.layer{
+    height:60vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.inp3{
+    background-color: #1e202b;
+    height: 60px;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+
+}
+.inp3:focus {
+ 
+        background:#1e202b;
+        border: none;
+    box-shadow: none;
+    
+}
+.inp2{
+    position: relative;
+}
+.btn1{
+    background-color: #009ad8;
+    color: white;
+    border-radius:30px;
+width: 120px;
+position: absolute;
+right: 4px;
+top: 0px;
+margin-top: 3px;
+height: 54px;
+}
+
+.card-header{
+    background-color: #2d303d;
+
+
+}
+.card-body{
+    background-color: #323544;
+}
+
+.card{
+    color: white;
+    border: none;
+    width: 33.30%;
+   
+}
+.weatherapp{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    position: relative;
+}
+.layer2{
+    background-color: rgba(0, 0, 0, 0.403);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+height: 100%;
+
+}
+.p10{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.547);
+}
+
+.w-degree{
+    font-size: 90px;
+    font-weight:500;
+}
+.w-status{
+    color: #009ad8;
+}
+.icon2 ,.text2{
+    color: rgba(255, 255, 255, 0.6);
+}
+.small-num{
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 10px;
+}
+.larg-num{
+    font-size: 28px;
+    font-weight: bold;
+}
+.condition{
+    color: #009ad8;
+
+}
+.weatherapp{
+    display: flex;
+    justify-content: center;
+
+}
+.copy-right{
+   color: rgba(255, 255, 255, 0.605);
+   font-size: 14px;
+}
+
+.social-icon{
+    height:40px;
+    width: 40px;
+    border: none;
+    background-color: #1e202b;
+    border-radius: 50%;
+    color: #009ad8;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.social-icon:hover{
+    background-color: #009ad8;
+    color: #1e202b;
+}
+    .card-cont1{
+        height: 279px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+      
+    }
+    .card-cont{
+        z-index: 9999;
+    }
